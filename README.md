@@ -22,7 +22,7 @@ Using Composer
 ----------------------------
 
 1. Get the source from here
-2. The missing libraries & dependencies are stored in composer.json
+2. The necessary libraries & dependencies are stored in composer.json
 3. cd to the directory and start composer with "php composer.phar update"
 4. Composer installes the missing libraries and modifies the autoload files
 5. Create the database with the sql-file, Insert a User with a salted an sha1-hashed password. The salte from the same row will e used.
