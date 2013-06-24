@@ -81,7 +81,7 @@ class DoctrineAuthController extends AbstractActionController
             }
             if($result->isValid())
             {
-                // Auf home-Route umleiten (die hoffentlich da ist), Todo: angerfagte Route merken und nach Auth dahin umleiten
+                // redirect to home route, Todo: remember orginal route and redirect there after authentification
                 $redirect = "home";
                 $this->getSessionStorage()->write($request->getPost("username"));
             }
