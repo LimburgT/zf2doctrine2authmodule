@@ -8,7 +8,8 @@ systems. This application is meant to be used as a starting place for those
 looking to get their feet wet with ZF2.
 
 Added is a module for Doctrine2 Authentification, derived from Abul Maliks' SanAuth-Module:
-http://samsonasik.wordpress.com/2012/10/04/zend-framework-2-step-by-step-build-form-using-annotation-builder/
+http://samsonasik.wordpress.com/2012/10/23/zend-framework-2-create-login-authentication-using-authenticationservice-with-rememberme/
+
 Thanks Abdul!
 It uses Doctrine2 (DoctrineModule/DoctrineORMModule) to authentifcate Users stored in the database
 The Skeleton Application/module.php is modified. It asks for authentification in every event. 
