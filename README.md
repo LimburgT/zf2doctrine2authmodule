@@ -27,3 +27,4 @@ Using Composer
 4. Composer installes the missing libraries and modifies the autoload files
 5. Create the database with the user.sql-file, Insert a User with a salted an sha1-hashed password. Put the salt in the same row.
 6. Complete config/autoload/database.local.php with Your DB-Credentials
+7. Follow the Instructions in the zf2 tutorial to set up the virtual host: http://framework.zend.com/manual/2.2/en/user-guide/skeleton-application.html
